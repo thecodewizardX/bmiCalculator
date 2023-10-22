@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <title>ZEZA</title></head>
+<body>
+    <!--top bar-->
+    <div class="top_bar">
+        <h1>ZEZA BMI Calculator</h1>
+    </div>
+    <!--container-->
+    <div class="container">
+        
+        <!--Menu bar-->
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="formula.html">Formula</a>
+            <a href="about.html">About</a>
+
+
+            
+            <h1>ZEZA BMI<br>Calculator</h1>
+        </div>
+        <!--Calculator-->
+        <div class="calculator">
+            <form action="" method="">
+                <div class="heading"><h1>BMI Calculator</h1></div>
+                <div class="input">
+                    <input type="number" placeholder="Enter height in CM." name="height" id="height">
+                </div>
+                <div class="input">
+                    <input type="number" placeholder="Enter weight in KG." name="weight" id="weight">
+                </div>
+                <div class="Btn">
+                    <button type="button" onclick="calc()">Calculate</button>
+                </div>
+                <div class="Btn">
+                    <button type="reset">Reset</button>
+                </div>
+                <div class="value">
+                    <h3 id="result"></h3>
+                </div>
+            </form>
+        </div>
+        <!--result-->
+        <div class="check">
+            <p>Body Mass Insex value is derived from the mass and height of person.A high BMI can indicate high body fatness.BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.</p>
+            <table>
+                <head>
+                    <tr>
+                        <th>Value</th>
+                        <th>Result</th>
+                    </tr>
+                </head>
+                <body>
+                    <tr>
+                        <td>Val < 18.5</td>
+                        <td>Under weight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Normal</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Pre Obesity</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - 34.9</td>
+                        <td>Obesity class 1</td>
+                    </tr>
+                    <tr>
+                        <td>35.0 - 39.9</td>
+                        <td>Obesity class 2</td>
+                    </tr>
+                    <tr>
+                        <td>40.0 < Val</td>
+                        <td>Obesity class 3</td>
+                    </tr>
+                </body>
+            </table>
+        </div>
+    </div>
+    <script src="/script/script.js"></script>>
+</body>
+</html>

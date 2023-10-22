@@ -1,0 +1,135 @@
+body{
+    background-color: #F2DEBA;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: .5fr 1fr 1.5fr;
+    column-gap: 10px;
+}
+.top_bar{
+    background-color: #6c00ff;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.top_bar h1{
+    text-align: center;
+    color: aqua;
+    margin-top: 10px;
+}
+.menu a{
+    text-decoration: none;
+    display: block;
+    padding: 2rem;
+    color: black;
+    font-size: 16pt;
+    margin-top: 20px;
+    text-align: center;
+}
+.menu{
+    margin-top: 30px;
+}
+.menu h1{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.calculator{
+    background-color:#2dcddf;
+    border: 1px solid black;
+    height: 650px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 1rem;
+    margin-top: 30px;
+}
+.menu a:hover{
+    color: blue;
+    background-color: skyblue;
+}
+.calculator .input input{
+    width: 300px;
+    height: 40px;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 16pt;
+}
+.calculator .Btn{
+    display: inline;
+    padding: 1rem;
+}
+.calculator .Btn button{
+    width: 140px;
+    height: 60px;
+    font-size: 16pt;
+    margin-top: 60px;
+    border-radius: 25px;
+    background-color: #44FF77;
+    border: 1px solid #44FF77;
+}
+.Btn button:hover{
+    background-color: yellowgreen;
+}
+.calculator .value{
+    margin-top: 70px;
+    font-size: 16pt;
+}
+.check p{
+    text-transform: capitalize;
+    text-indent: 90px;
+    margin-top: 60px;
+    font-size: 16pt;
+    padding: 1rem;
+}
+.check table{
+    
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+table th,td{
+    border: 2.4px solid black;
+    background-color: #2dcddf;
+    border-radius: 15px;
+}
+img{
+    margin-top: 30px;
+}
+.explanation p{
+    text-transform: capitalize;
+    text-indent: 90px;
+    margin-top: 30px;
+    font-size: 16pt;
+    padding: 1rem;
+}
+.explanation li{
+    padding: 1rem;
+    font-size: 16pt;
+}
+.explanation h2{
+    text-align: center;
+}
+.container_about{
+    display: grid;
+    grid-template-columns: .23fr 1fr;
+    column-gap: 200px;
+}
+.final p{
+    text-transform: capitalize;
+    text-indent: 90px;
+    margin-top: 30px;
+    font-size: 16pt;
+    padding: 1rem;
+}
+.final li{
+    padding: 1rem;
+    margin-top: 2px;
+    font-size: 16pt;
+}
+@media (max-width:720px) {
+    
+}
